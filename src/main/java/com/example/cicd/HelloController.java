@@ -10,6 +10,6 @@ public class HelloController {
 
     @GetMapping("/hello")
     public String hello() {
-        return "Hello from Spring Boot CI/CD app ";
+        return "Hello from Spring Boot CI/CD app";
     }
 }
